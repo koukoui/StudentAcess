@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PresentActivity" >
+
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:src="@drawable/univerpresentt" />
+
+   <ScrollView
+       android:id="@+id/scrollView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/imageView1"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/imageView1" >
+       
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical" >
+       
+       <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/scrollView1"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/imageView1"
+       android:text="L’Université Knowledge est une grande école située au cœur de l’avenue Charles De Gaule qui s’appuie essentiellement sur une approche pédagogique active moderne et innovante pour former de futures gestionnaires et juristes, qui peuvent facilement intégrer le marché d&apos;emplois. Les études universitaires d’Ingénierie Télécom et de Droit et Politique des TIC sont poursuivies selon le cursus LMD (Licence Mastère Doctorat) honorés par des diplômes reconnus par le CAMES. Les formations en Politique et Droit des TIC permettent à l’étudiant de développer son sens du jugement grâce non seulement à des sessions d&apos;études, des activités d&apos;initiative, mais aussi à des stages au sein d’entreprises, des séminaires d&apos;affaires et des activités scientifiques. Les études universitaires au département de Télécommunication de Université Knowledge offrent une formation d’excellence ayant pour vocation de préparer les étudiants à exercer toutes les professions ouvertes aux métiers d’ingénieur. L’inscription aux licences est ouverte aux étudiants titulaires du baccalauréat ou tout autre diplôme équivalent. L’accès aux programmes de mastère est ouvert aux étudiants titulaires d’une licence, d’une maîtrise, d’un diplôme d’ingénieur ou tout autre diplôme équivalent." />
+       
+
+      
+       </LinearLayout>
+   </ScrollView>
+
+   
+</RelativeLayout>

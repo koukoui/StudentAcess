@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Access</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_present">Presentation</string>
+    <string name="title_activity_inscrire">Inscription</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_authentification">Authentification</string>
+    <string name="title_activity_espace">Espace</string>
+    <string name="btnQuitter">Quitter</string>
+    <string name="welcome">Bienvenu a ESMT</string>
+    <string name="menunotes">Notes</string>
+    <string name="menuhelp">Aide</string>
+    <string name="menuapropos">A Propos</string>
+    <string name="menucontacts">Contacts</string>
+    <string name="title_activity_assiduite">AssiduiteActivity</string>
+    <string name="title_activity_echeances">EcheancesActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+
+</resources>

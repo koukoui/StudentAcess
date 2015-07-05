@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stagiaires"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EspaceActivity" >
+
+    <Button
+        android:id="@+id/btnecheances"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:text="Echéances évaluations" />
+
+    <Button
+        android:id="@+id/btnedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnecheances"
+        android:layout_alignLeft="@+id/btnecheances"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:text="Emplois de temps" />
+
+    <Button
+        android:id="@+id/btnassiduites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnedt"
+        android:layout_alignRight="@+id/btnedt"
+        android:layout_centerVertical="true"
+        android:text="Assiduités" />
+
+    <Button
+        android:id="@+id/btnnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnassiduites"
+        android:layout_alignLeft="@+id/btnassiduites"
+        android:layout_alignRight="@+id/btnassiduites"
+        android:layout_marginBottom="37dp"
+        android:text="Notes" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/espace_etudiant" />
+
+    <ImageButton
+        android:id="@+id/btnhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnnote"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/home" />
+
+</RelativeLayout>

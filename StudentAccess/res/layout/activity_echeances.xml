@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stagiaires"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EcheancesActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Dates utiles / Echeances"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnlp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:text="Licence professionnelle 1" />
+
+    <Button
+        android:id="@+id/btnlp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnlp2"
+        android:layout_alignRight="@+id/btnlp2"
+        android:layout_below="@+id/btnlp2"
+        android:text="Licence Professionnelle 3" />
+
+    <Button
+        android:id="@+id/btnlp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnlp1"
+        android:layout_alignRight="@+id/btnlp1"
+        android:layout_below="@+id/btnlp1"
+        android:text="Licence Professionnelle 2" />
+
+    <Button
+        android:id="@+id/btnmp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnmp1"
+        android:layout_alignRight="@+id/btnmp1"
+        android:layout_below="@+id/btnmp1"
+        android:text="Master Professionnel 2" />
+
+    <Button
+        android:id="@+id/btnms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnmp2"
+        android:layout_alignRight="@+id/btnmp2"
+        android:layout_below="@+id/btnmp2"
+        android:text="Master Spécialisé" />
+
+    <Button
+        android:id="@+id/btnmp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnlp3"
+        android:layout_alignRight="@+id/btnlp3"
+        android:layout_below="@+id/btnlp3"
+        android:layout_marginTop="14dp"
+        android:text="Master Professionnel 1" />
+
+    <ImageButton
+        android:id="@+id/btnretour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnms"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/boutonprecedent" />
+
+</RelativeLayout>
